@@ -1,0 +1,120 @@
+.weather1 {
+    margin-top: 50px;
+    background: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlciUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    padding: 50px 0;
+}
+.weather1 .weather-text{
+    margin-top: 50px;
+    color: #ffa343;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+.weather1 div.dropdown {
+    margin: 20px 0;
+    color: #fff;
+}
+.weather1 label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    color: white;
+}
+.weather1 select {
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 98%;
+    padding: 10px;
+}
+.weather-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.weather-card {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+}
+.weather-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    background-color: transparent;
+}
+.weather-card .weather-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: left;
+}
+.weather-card img {
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+}
+.weather-card h5 {
+    margin-top: 50px;
+    color: #fff;
+}
+.weather-card .additional-info {
+    margin-top: 10px;
+    color: #f78c00;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.search-bar label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1.25rem;
+    width: 60%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-left-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+     100% {
+        transform: rotate(360deg);
+    }
+}

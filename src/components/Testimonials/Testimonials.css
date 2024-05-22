@@ -1,0 +1,226 @@
+.testimonials {
+    background-color: black;
+    padding: 50px 0;
+  }
+  
+  .inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .border {
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto 40px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stars {
+    color: #f1c40f;
+    margin-bottom: 10px;
+  }
+  
+  .stars i {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .testimonial-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-form input,
+  .testimonial-form select,
+  .testimonial-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .testimonial-form textarea {
+    height: 100px;
+  }
+  
+  .testimonial-form button {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimonial-form button:hover {
+    background-color: #555;
+  }
+  .testimonials {
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .border {
+    width: 150px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto 30px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col {
+    flex: 0 0 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .testimonial .name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .testimonial-form {
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .testimonial-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .testimonial-form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-form label input,
+  .testimonial-form label textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  
+  .testimonial-form label textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .testimonial-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimonial-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .col {
+      flex: 0 0 100%;
+    }
+  
+    .testimonial-form {
+      padding: 0 20px;
+    }
+  }
+  
